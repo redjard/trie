@@ -1,4 +1,4 @@
-Generic trie implemetnation in C
+Generic trie implementation in C
 ========================
 
 This a simple implementation of [trie](http://en.wikipedia.org/wiki/Trie)
@@ -11,7 +11,7 @@ it work, run `make test`.
 Usage
 -----
 
-Currently an implemetation provides interfaces to store `char` based strings in the
+Currently an implementation provides interfaces to store `char` based strings in the
 trie, attaching to each word some information of `ssize_t` type.  For
 example, consider the following case:
 
@@ -69,7 +69,7 @@ As the type of information you attach is a transparent `size_t` we need
 to dedicate one symbol, whic would denote that a certain symbol is _not_
 last.  Macro `TRIE_NOT_LAST` serves this purpose.
 
-Tha implementation is valgrinded, and is compiled at strictes gcc warning
+The implementation is valgrinded, and is compiled at strictest gcc warning
 level.
 
 Send your suggestions or patches.
