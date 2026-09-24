@@ -35,7 +35,7 @@ int main (int argc, char *argv[])
   ssize_t res;
 
   /* Initialize new trie.  */
-  truct trie *  dict = trie_new ();
+  struct trie *  dict = trie_new ();
   if (argc <= 1)
     {
       (void) fprintf (stderr, "usage: %s word to find\n", argv[0]);
